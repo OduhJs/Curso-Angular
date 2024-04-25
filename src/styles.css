@@ -1,0 +1,9 @@
+body {
+  padding-bottom: 500px;
+}
+
+.aula {
+  border-bottom: 1px solid darkred;
+  padding: 2em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,7 @@
+<div class="aula">
+  <button (click)="click()"><p *ngIf="clickValue == true; else HiddenText">Esconder o texto</p></button>
+  <h2 *ngIf="clickValue">Hello AngularJs</h2>
+  <ng-template #HiddenText>
+    <p>Mostrar o texto</p>
+  </ng-template>
+</div>

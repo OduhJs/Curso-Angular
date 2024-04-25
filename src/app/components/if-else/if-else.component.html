@@ -1,0 +1,7 @@
+<div class="aula">
+  <h2 *ngIf="hide">Foi permitido mostrar este h2</h2>
+  <h2 *ngIf="nome == 'Eduardo'; else PermissaoNegada">Permissão dada! Bem vindo, {{nome}}!</h2>
+  <ng-template #PermissaoNegada>
+    <h2>Permissão negada! O nome {{nome}} não foi encontrado na lista.</h2>
+  </ng-template>
+</div>

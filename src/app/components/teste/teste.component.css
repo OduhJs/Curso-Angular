@@ -1,0 +1,29 @@
+.effect__underline {
+  text-decoration: underline;
+}
+
+.color-darkred {
+  color: darkred;
+}
+
+.text__animation {
+  animation: text 1.5s ease-in-out infinite;
+}
+
+@keyframes text {
+  0% {
+    color: transparent;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: darkred;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: transparent;
+  }
+}
